@@ -93,7 +93,7 @@ You can interact with the model through out Hugging Face Spaces platform. The in
 [Food Recognition Code Demonstration](https://colab.research.google.com/drive/1UFw55qTsWHvw4_VfOVDWPboAi_tFdpjV#scrollTo=lTPI4fLv7vgH)
 
 ## Food Recognition with Chatbot
-Here, we've built a chatbot that not only can perform food classification based on Vision Transformer but also incorporates OpenAI's API to facilitate real-time interactive dialogues. You can ask anything you wish to know more about the food you've uploaded, easily obtain the ingredients and methods needed to make it, and even recreate this delicious meal in your own kitchen tonight.
+Here, we've built a chatbot, which makes the project not only can perform food classification based on Vision Transformer but also incorporates OpenAI's API to facilitate real-time interactive dialogues. You can ask anything you wish to know more about the food you've uploaded, easily obtain the ingredients and methods needed to make it, and even recreate this delicious meal in your own kitchen tonight.
   
 [Food Recognition with Chatbot](https://huggingface.co/spaces/ewanlong/Food_Recognition_with_Chatbot)
   
