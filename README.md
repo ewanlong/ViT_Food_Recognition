@@ -1,6 +1,6 @@
-# Vision Transformer Classifier for Food Recognition
+# Vision Transformer Classifier for Food Recognition with Chatbot
   
-This repository contains a presentation and code demonstration of Food Recognition using Vision Transformer (ViT).
+This repository contains a presentation and code demonstration of Food Recognition using Vision Transformer (ViT) with OpenAI's GPT-3.5 Chatbot.
   
 Presenter: Yitian(Ewan) Long
   
@@ -17,11 +17,12 @@ Presenter: Yitian(Ewan) Long
     - [Dataset Card](#dataset-card)
 - [Interactive Demonstration](#interactive-demonstration)
 - [Code Demonstration](#code-demonstration)
+- [Food Recognition with Chatbot](#food-recognition-with-chatbot)
 - [Critical Analysis](#critical-analysis)
     - [The Impact of This Project](#the-impact-of-this-project)
     - [Next Steps](#next-steps)
 - [Resources & Citations](#resources--citations)
-- [The First Step of the Next Steps](#the-first-step-of-the-next-steps)
+
 
 ## Overview
   
@@ -65,6 +66,7 @@ That's why we are introducing the Vision Transformer (ViT) model, which is more 
 - Model Architecture: Vision Transformer (ViT)
 - Fine-tuning: 
     - Fine-tuned on Food Image Classification Dataset by using 12 varieties of these 35 varieties
+        - When attempting to use Google Colab Pro to train the entire dataset, the system automatically disconnects from Google's servers about five hours into the training, resulting in the loss of the uploaded dataset, all data trained so far, and all installed packages.
     - Optimizer: AdamW
     - Epochs: 20
 - Model Performance: Achieved an accuracy of 96.23% on all of the kinds of Food Image Classification Dataset
@@ -89,6 +91,10 @@ You can interact with the model through out Hugging Face Spaces platform. The in
 ## Code Demonstration
   
 [Food Recognition Code Demonstration](https://colab.research.google.com/drive/1UFw55qTsWHvw4_VfOVDWPboAi_tFdpjV#scrollTo=lTPI4fLv7vgH)
+
+## Food Recognition with Chatbot
+  
+[Food Recognition with Chatbot](https://huggingface.co/spaces/ewanlong/Food_Recognition_with_Chatbot)
   
 ## Critical Analysis
   
@@ -99,6 +105,8 @@ You can interact with the model through out Hugging Face Spaces platform. The in
 - It can accurately identify food under different environments and lighting conditions. For example, it can also achieve high accurate recognition in dim light environments and complex scenes.
   
 - As we used an open-source model, it's possible to retrain the model to recognize specific traditional and specialty cuisines, such as Scottish traditional food Haggis or Beijing roast duck.
+
+- The Food Recognition with Chatbot Version can easily interact with OpenAI's ChatGPT to get more information about the food, such as its history, ingredients, and recipes.
   
 ### Next Steps
 
@@ -108,7 +116,7 @@ You can interact with the model through out Hugging Face Spaces platform. The in
   
 - Encapsulating the model into a smaller model and run it locally. 
    
-- Trying multimodal recognition, for example, finding food through text descriptions and interacting with the model to get information or history behind the food.
+- Trying multimodal recognition by combining the model with other models, such as image generation models, to generate images of food based on the your text description.
   
 - Combining it with other vision transformer models (Swin) and also CNNs, to improve the accuracy and efficiency of recognition.
   
@@ -122,8 +130,4 @@ You can interact with the model through out Hugging Face Spaces platform. The in
   
   
 ![Thai Food](figures/thai.jpg)
-  
-  
-## The First Step of the Next Steps
-  
-[Food Recognition with Chatbot](https://huggingface.co/spaces/ewanlong/Food_Recognition_with_Chatbot)
+
