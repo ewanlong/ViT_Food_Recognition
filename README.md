@@ -123,11 +123,13 @@ Here, we've built a chatbot, which makes the project not only can perform food c
   
 ## Resources & Citations
 - [Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., ... & Houlsby, N. (2020). An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929.](https://arxiv.org/abs/2010.11929)
+- [Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., ... & Guo, B. (2021). Swin transformer: Hierarchical vision transformer using shifted windows. In Proceedings of the IEEE/CVF international conference on computer vision (pp. 10012-10022).](https://arxiv.org/abs/2103.14030)
 - [Google Research Vision Transformer](https://github.com/google-research/vision_transformer)
 - [Google ViT Model Pre-trained on ImageNet-21k](https://huggingface.co/google/vit-base-patch16-224-in21k)
 - [Food Image Classification Dataset](https://www.kaggle.com/datasets/harishkumardatalab/food-image-classification-dataset/data)
 - [Fine-Tune ViT for Image Classification with 🤗 Transformers](https://huggingface.co/blog/fine-tune-vit)
 - [Food Recognition Benchmark Starter Kit](https://github.com/AIcrowd/food-recognition-benchmark-starter-kit)
+  
   
   
 ![Thai Food](figures/thai.jpg)
