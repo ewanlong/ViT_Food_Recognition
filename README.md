@@ -64,7 +64,7 @@ That's why we are introducing the Vision Transformer (ViT) model, which is more 
 - Model Type: Image Classification
 - Model Architecture: Vision Transformer (ViT)
 - Fine-tuning: 
-    - Fine-tuned on Food Image Classification Dataset
+    - Fine-tuned on Food Image Classification Dataset by using 12 varieties of these 35 varieties
     - Optimizer: AdamW
     - Epochs: 20
 - Model Performance: Achieved an accuracy of 96.23% on all of the kinds of Food Image Classification Dataset
