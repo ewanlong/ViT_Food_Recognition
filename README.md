@@ -4,7 +4,7 @@ This repository contains a presentation and code demonstration of Food Recogniti
   
 Presenter: Yitian(Ewan) Long
   
-![Spaghetti](figures/spaghetti.jpg)
+![Spaghetti](figures/spaghetti.jpeg)
   
 ## Table of Contents
 - [Overview](#overview)
@@ -133,5 +133,5 @@ Here, we've built a chatbot, which makes the project not only can perform food c
   
   
   
-![Thai Food](figures/thai.jpg)
+![Thai Food](figures/thai.jpeg)
 
