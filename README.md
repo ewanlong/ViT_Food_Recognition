@@ -27,6 +27,7 @@ Presenter: Yitian(Ewan) Long
 ## Overview
   
 ### Video Recording
+[Overview of Vision Transformer Classifier for Food Recognition with Chatbot](https://youtu.be/kFXhN97R0fk)
   
 ### Motivation
   
